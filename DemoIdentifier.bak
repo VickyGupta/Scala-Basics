@@ -1,0 +1,7 @@
+object DemoIdentifier{
+	def main(args:Array[String]){
+		println("Identifier Allowed:");
+
+		String s=`ada`;
+	}
+}

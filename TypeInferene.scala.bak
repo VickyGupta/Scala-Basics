@@ -1,0 +1,14 @@
+object TypeInference{
+	def main(args:Array[String]){
+
+	var a=10;
+	val b=20;
+
+	var name="DDA";
+	var addr="Banglore";
+
+	println(a+"..."+b+"..."+name+"..."+addr);
+	
+	}
+
+}

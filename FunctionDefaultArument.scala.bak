@@ -1,0 +1,15 @@
+object FunctionDefaultArument{
+
+    def main(args:Array[String]){
+        println("Default Argument Function");
+
+       var i= add();
+       println(i);
+    }
+
+    def add(a:Int=5,b:Int=10):Int={
+        var c=a+b;
+        return c;
+    }
+
+}
