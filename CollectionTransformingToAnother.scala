@@ -54,7 +54,7 @@ object CollectionTransformingToAnother extends App{
     }
 
     val a = Array.range(0,50)
-   println( a.reduce(findMax))
+   println(a.reduce(findMax))
 
    val b=Vector(1,2,3,4,5,6,7,8,65,34,2,2,5,7,3,121,3)
    println(b)
